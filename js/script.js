@@ -93,7 +93,7 @@ const members = {
         // running month {"01/07/24-Cash":500}
         stay_cost       :2200,
         garage_cost     :20,
-        running_payable :0,
+        running_payable :2430,
         running_paid    :0,
         running_meal    :3,
         // method calling
@@ -113,7 +113,7 @@ const members = {
         // running month
         stay_cost       :2000,
         garage_cost     :20,
-        running_payable :0,
+        running_payable :3406,
         running_paid    :0,
         running_meal    :8,
         // method calling
@@ -133,7 +133,7 @@ const members = {
         // running month
         stay_cost       :2700,
         garage_cost     :330,
-        running_payable :0,
+        running_payable :4110,
         running_paid    :0,
         running_meal    :7,
         // method calling
@@ -153,7 +153,7 @@ const members = {
         // running month
         stay_cost       :3500,
         garage_cost     :130,
-        running_payable :0,
+        running_payable :4018,
         running_paid    :0,
         running_meal    :4,
         // method calling
@@ -173,7 +173,7 @@ const members = {
         // running month
         stay_cost       :2400,
         garage_cost     :0,
-        running_payable :0,
+        running_payable :3468,
         running_paid    :0,
         running_meal    :0,
         // method calling
@@ -193,7 +193,7 @@ const members = {
         // running month
         stay_cost       :0,
         garage_cost     :130,
-        running_payable :0,
+        running_payable :2033,
         running_paid    :0,
         running_meal    :7,
         // method calling
@@ -213,7 +213,7 @@ const members = {
         // running month
         stay_cost       :3000,
         garage_cost     :130,
-        running_payable :0,
+        running_payable :3975,
         running_paid    :0,
         running_meal    :12,
         // method calling
@@ -233,7 +233,7 @@ const members = {
         // running month
         stay_cost       :2500,
         garage_cost     :130,
-        running_payable :0,
+        running_payable :4841,
         running_paid    :0,
         running_meal    :0,
         // method calling
