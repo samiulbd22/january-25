@@ -80,7 +80,7 @@ const members = {
     runningMonth    :"January-25",
     previousMonth   :"December-24", // new addDecember
     upComingMonth   :"February 1,2025",
-    runningMealRate :72,
+    runningMealRate :62,
 
     "01814843266":{
         name:"Istiaq Ahmad Udoy",
@@ -95,7 +95,7 @@ const members = {
         garage_cost     :20,
         running_payable :2430,
         running_paid    :4500,
-        running_meal    :3,
+        running_meal    :4,
         // method calling
         preMonth,
         runningDiningCost,
@@ -115,7 +115,7 @@ const members = {
         garage_cost     :20,
         running_payable :3406,
         running_paid    :0,
-        running_meal    :8,
+        running_meal    :9,
         // method calling
         preMonth,
         runningDiningCost,
@@ -215,7 +215,7 @@ const members = {
         garage_cost     :130,
         running_payable :3975,
         running_paid    :2000,
-        running_meal    :12,
+        running_meal    :13,
         // method calling
         preMonth,
         runningDiningCost,
@@ -255,7 +255,28 @@ const members = {
         garage_cost     :130,
         running_payable :4841,
         running_paid    :6000,
-        running_meal    :9,
+        running_meal    :10,
+        // method calling
+        preMonth,
+        runningDiningCost,
+        runningMonth,
+        totalPayable
+    },
+	"01821245430":{
+        name:"Md Rubel Hossain",
+        join:"new",
+        
+        // pre-previous month list
+        post_payable        :0,
+        previous_paid       :1500,
+        previous_dining_cost:2531,
+        payment             :{"7/01/25-Cash":1000},
+        // running month
+        stay_cost       :0,
+        garage_cost     :0,
+        running_payable :1000,
+        running_paid    :1500,
+        running_meal    :18,
         // method calling
         preMonth,
         runningDiningCost,
@@ -476,7 +497,7 @@ function opener(){
         if( memberNumber === "01834648400" || memberNumber === "01814843266" 
          || memberNumber === "01922362569" || memberNumber === "01744459622"
          || memberNumber === "01780608997" || memberNumber === "01644377150"
-         || memberNumber === "01645122114" || memberNumber === "01714443406"||memberNumber==="01749244430"){
+         || memberNumber === "01645122114" || memberNumber === "01714443406"||memberNumber==="01749244430" || memberNumber === "01821245430"){
             document.getElementById("user-btn").style.opacity = 1;
             document.getElementById("submitBtn").style.display = 'inline-block';
             /*frontPage*///runningMonthPayment
@@ -698,6 +719,13 @@ function opener(){
                                                 <td>${members["01749244430"].runningMonth().diningDue}</td>
                                             </tr>
                                             `;
+						if(memberNumber==="01821245430"){
+                                                memberDiningList.appendChild(document.createElement('tr')).innerHTML=`<td>${members["01821245430"].name}</td>
+                                                <td>${members["01821245430"].runningDiningCost()}</td>
+                                                <td>${members["01821245430"].runningMonth().diningAdd}</td>
+                                                <td class="getMeals">${members["01821245430"].runningMonth().remainDining}</td>
+                                                <td>${members["01821245430"].runningMonth().diningDue}</td>`;
+                                            };
             let colorChanged = document.getElementsByClassName('getMeals');
         
             for (let nd = 0; nd < colorChanged.length; nd++) {
