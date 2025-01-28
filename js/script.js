@@ -276,7 +276,7 @@ const members = {
         garage_cost     :0,
         running_payable :1000,
         running_paid    :4500,
-        running_meal    :45,
+        running_meal    :46,
         // method calling
         preMonth,
         runningDiningCost,
