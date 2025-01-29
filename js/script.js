@@ -95,7 +95,7 @@ const members = {
         garage_cost     :20,
         running_payable :2430,
         running_paid    :4500,
-        running_meal    :23,
+        running_meal    :24,
         // method calling
         preMonth,
         runningDiningCost,
@@ -109,12 +109,12 @@ const members = {
         post_payable        :3226,
         previous_paid       :3900,
         previous_dining_cost:1400,
-        payment             :{"10/01/25-Cash":2000,"21/01/25-DBBL":500,"26/01/25-Cash":500,"27/01/25-DBBL":500},
+        payment             :{"10/01/25-Cash":2000,"21/01/25-DBBL":500,"26/01/25-Cash":500,"27/01/25-DBBL":500,"28/01/25-DBBL":500},
         // running month
         stay_cost       :2000,
         garage_cost     :20,
         running_payable :3406,
-        running_paid    :3500,
+        running_paid    :4000,
         running_meal    :25,
         // method calling
         preMonth,
@@ -155,7 +155,7 @@ const members = {
         garage_cost     :130,
         running_payable :4018,
         running_paid    :6000,
-        running_meal    :35,
+        running_meal    :36,
         // method calling
         preMonth,
         runningDiningCost,
@@ -175,7 +175,7 @@ const members = {
         garage_cost     :0,
         running_payable :3468,
         running_paid    :4500,
-        running_meal    :17,
+        running_meal    :19,
         // method calling
         preMonth,
         runningDiningCost,
@@ -195,7 +195,7 @@ const members = {
         garage_cost     :130,
         running_payable :2033,
         running_paid    :4000,
-        running_meal    :30,
+        running_meal    :31,
         // method calling
         preMonth,
         runningDiningCost,
@@ -255,7 +255,7 @@ const members = {
         garage_cost     :130,
         running_payable :4841,
         running_paid    :6500,
-        running_meal    :31,
+        running_meal    :32,
         // method calling
         preMonth,
         runningDiningCost,
@@ -276,7 +276,7 @@ const members = {
         garage_cost     :0,
         running_payable :1000,
         running_paid    :4500,
-        running_meal    :46,
+        running_meal    :48,
         // method calling
         preMonth,
         runningDiningCost,
